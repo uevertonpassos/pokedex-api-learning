@@ -18,7 +18,7 @@ const LoadPokemon = ({
 
   const { inView, ref } = useInView();
 
-  //HELPER FUNCTION HERE!!
+  
   const delay = (ms: number) =>
     new Promise((resolve) => setTimeout(resolve, ms));
 
